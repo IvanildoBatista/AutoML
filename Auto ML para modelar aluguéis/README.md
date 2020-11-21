@@ -33,5 +33,11 @@ Em anexo, além dos *notebooks* encontram-se a base de dados e o modelo salvo.
 
 Foi selecionado o modelo *Gradient Boosting Regressor*, que obteve o melhor valor de **RMSE**.
 
+## Bibliotecas usadas
+
+1) *Pandas* (apenas para importação dos dados)
+
+2) *PyCaret*.
+
 
 
