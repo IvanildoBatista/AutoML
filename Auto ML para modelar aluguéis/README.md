@@ -33,6 +33,17 @@ Em anexo, além dos *notebooks* encontram-se a base de dados e o modelo salvo.
 
 Foi selecionado o modelo *Gradient Boosting Regressor*, que obteve o melhor valor de **RMSE**.
 
+  |          |  *R-squared*  |  MAE   |    MSE    |     RMSE      |    RMSLE      |   MAPE      |
+|:--------:|:-----------:|:------------:|:---------------:|:---------------:|:---------------:|:---------------:|
+|Regra 1   | 0.9968 |  96.011|  37187.2977    |   37187.2977    |  37187.2977    |  37187.2977    |
+
+
+ do modelo: 
+Erro médio Absoluto do modelo: 
+Erro quadrado  médio do modelo: 
+Raiz do erro quadrado médio do modelo: 37187.2977
+Raiz do logarítmo do erro quadrado médio do modelo: 0.0956
+Erro percentual médio absoluto modelo: 0.0416
 ## Bibliotecas usadas
 
 1) *Pandas* (apenas para importação dos dados)
