@@ -37,7 +37,7 @@ Foi selecionado o modelo *Gradient Boosting Regressor*, que obteve o melhor valo
 |:--------:|:-----------:|:------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 |Regra 1   | 0.9968 |  96.011|  37187.2977    |   37187.2977    |  0.0956   | 0.0416    |
 
-[My image](username.github.com/repository/img/resultados.png)
+[My image](username.github.com/AutoML/img/resultados.png)
 
 ## Bibliotecas usadas
 
