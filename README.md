@@ -10,3 +10,8 @@ Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibl
 
 **Auto ML detecção de anomalias (PyCaret)**: Nesse projeto utilizo a biblioteca *PyCaret* identificar anomalias em uma base de cartões de créditos e depois analisar se as anomalias identificadas são ou não fraudes. Foram aplicados três modelos (*Iforest*, *Histogram* e *PCA*) e dos modelos o que gerou um melhor resultado foi o *PCA*, pois 432 anomalias foram identificadas como fraudes (de um total de 492).
 
+**Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
+
+1) a relação positiva entre a variável *engineSize* e o preço (*price*, variável alvo);
+
+2) As variáveis contínuas não possuem uma distribuição normal, o que pode ser um problema na hora de passá-las para modelos de *machine learning* ou de *deep learning*, pois alguns desses modelos pressupõem normalidade nas variáveis e isso mostra que essas colunas precisam de algum tipo de tratamento (normalização ou padronização). Outra coisa que pode-se notar é a presença de muitos *outliers* na variável *price* que pode ser ruim para o treinamento de um modelo, então essa coluna pode requerer um tratamento.
