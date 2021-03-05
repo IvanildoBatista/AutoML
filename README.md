@@ -1,6 +1,6 @@
 # Sobre o repositório
 
-Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibliotecas de *Auto Machine Learning*.
+Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibliotecas de automação de processos de *data science* como modelagem e visualização de dados. Abaixo segue alguns projetos desenvolvidos:
 
 **Auto ML para modelar aluguéis (PyCaret)**: Modelagem do preço de alugueis de casas e apartamentos no Brasil. Foi utilizada a biblioteca *PyCaret* para todas as etapas do projeto (tratamento, modelagem, avaliação, salvamento e carregamento); o modelo gerado foi um *Gradient Boosting Regressor* que obteve as melhores métricas de avaliação na validação cruzada. O R-squared do modelo foi de **0.9968**.
 
