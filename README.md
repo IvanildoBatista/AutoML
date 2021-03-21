@@ -10,6 +10,8 @@ Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibl
 
 **Auto ML detecção de anomalias (PyCaret)**: Nesse projeto utilizo a biblioteca *PyCaret* identificar anomalias em uma base de cartões de créditos e depois analisar se as anomalias identificadas são ou não fraudes. Foram aplicados três modelos (*Iforest*, *Histogram* e *PCA*) e dos modelos o que gerou um melhor resultado foi o *PCA*, pois 432 anomalias foram identificadas como fraudes (de um total de 492).
 
+**Auto ML para previsão de preços de casas (TPOT)**: Aplicação da biblioteca *TPOT*.
+
 **Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
 
 1) a relação positiva entre a variável *engineSize* e o preço (*price*, variável alvo);
