@@ -14,12 +14,12 @@ Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibl
 
 Os resultado podem ser vistos abaixo:
 
-|Método de seleção de *features* | R^2     |  Erro absoluto médio  |  Erro quadrado médio|  Raiz do erro quadrado médio |  *MedAE* |  *R-squared* |
-|:----------------:|:------------------:|:------------------:|:------------------:|:------------------: |:------------------:|:------------------:|
-|**Correlação** | **3.173**| **2.558** | **10.071**|**0.025**|**2.193**|**70.3%**|
-|*RFE* | 9.872| 8.558 | 97.447| 0.183 | 8.3|-7754.9%|
-|*Feature Importance* | 10.477| 8.99 | 109.766| 0.2 | 9.219|-9522.3%|
-|*PCA* | 11.747| 10.357 | 137.99| 0.253 | 11.693|-376.2%|
+|Método de seleção de *features* | *R-squared*     |  Erro absoluto médio  |  Erro quadrado médio|  Raiz do erro quadrado médio |
+|:----------------:|:------------------:|:------------------:|:------------------:|:------------------: |
+|**Correlação** | **3.173**| **2.558** | **10.071**|**0.025**|
+|*RFE* | 9.872| 8.558 | 97.447| 0.183 |
+|*Feature Importance* | 10.477| 8.99 | 109.766| 0.2 |
+|*PCA* | 11.747| 10.357 | 137.99| 0.253 | 
 
 **AutoML para classificação de preços de celulares (TPOT)**: Aplicação da biblioteca *TPOT*
 
