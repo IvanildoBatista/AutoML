@@ -26,7 +26,7 @@ Os resultado podem ser vistos abaixo:
 **AutoML para previsão de resistência do concreto (Auto-Sklearn)**: Utilizando a biblioteca *Auto-Sklearn* para previsão de resistência de concreto; o modelo gerado pela biblioteca gerou previsões que resultaram nas seguintes métricas de avaliação abaixo:
 
 |Métrica | Resultado |
-|:----------:|:------------------:|:
+|:----------:|:------------------:|
 |*R-squared*| 89.803 %|
 |Erro médio absoluto | 3.907485038152961|
 |Erro médio percentual absoluto |0.13186784887581904|
