@@ -21,7 +21,7 @@ Os resultado podem ser vistos abaixo:
 |*Feature Importance* | 0.716| 29641.191 | 1989657290.949| 44605.575 |
 |*PCA* | 0.211| 52247.883 |5526554661.733| 74340.801 | 
 
-**AutoML para classificação de preços de celulares (TPOT)**: Aplicação da biblioteca *TPOT*
+**AutoML para classificação de preços de celulares (TPOT)**: Aplicação da biblioteca de *AutoML TPOT* para classificação de preços de celulares. Com o uso dessa biblioteca foi gerado um modelo com uma acurácia de **97.4%**.
 
 **Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
 
