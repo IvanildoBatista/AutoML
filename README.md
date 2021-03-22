@@ -10,7 +10,7 @@ Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibl
 
 **Auto ML detecção de anomalias (PyCaret)**: Nesse projeto utilizo a biblioteca *PyCaret* identificar anomalias em uma base de cartões de créditos e depois analisar se as anomalias identificadas são ou não fraudes. Foram aplicados três modelos (*Iforest*, *Histogram* e *PCA*) e dos modelos o que gerou um melhor resultado foi o *PCA*, pois 432 anomalias foram identificadas como fraudes (de um total de 492).
 
-**Auto ML para previsão de preços de casas (TPOT)**: Aplicação da biblioteca *TPOT* para previsão de preços de casas. Nesse projeto utilizei 4 métodos de seleção de *features* (por correlação, por *Feature Importance* do modelo de árvore de regressão, por *RFE* e por *PCA*) e o modelo de melhor desempenho foi aquele cuja seleção foi via correlação. O modelo gerado foi um 
+**Auto ML para previsão de preços de casas (TPOT)**: Aplicação da biblioteca *TPOT* para previsão de preços de casas. Nesse projeto utilizei 4 métodos de seleção de *features* (por correlação, por *Feature Importance* do modelo de árvore de regressão, por *RFE* e por *PCA*) e o modelo de melhor desempenho foi aquele cuja seleção foi via correlação. O modelo gerado foi *RandomForestRegressor(RidgeCV(input_matrix), bootstrap=True, max_features=0.55, min_samples_leaf=5, min_samples_split=14, n_estimators=100)*.
 
 Os resultado podem ser vistos abaixo:
 
