@@ -14,7 +14,7 @@ Nesse repositório irá constar projetos onde foram aplicadas ferramentas e bibl
 
 Os resultado podem ser vistos abaixo:
 
-| |   Método de seleção de *feature*   |  *MAE*  |  *MSE*|  *MSLE* |  *MedAE* |  *R-squared* |
+|Método de seleção de *features* | R^2     |  *MAE*  |  *MSE*|  *MSLE* |  *MedAE* |  *R-squared* |
 |:----------------:|:------------------:|:------------------:|:------------------:|:------------------: |:------------------:|:------------------:|
 |**Correlação** | **3.173**| **2.558** | **10.071**|**0.025**|**2.193**|**70.3%**|
 |*RFE* | 9.872| 8.558 | 97.447| 0.183 | 8.3|-7754.9%|
