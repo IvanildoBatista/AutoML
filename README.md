@@ -16,10 +16,10 @@ Os resultado podem ser vistos abaixo:
 
 |Método de seleção de *features* | *R-squared*     |  Erro absoluto médio  |  Erro quadrado médio|  Raiz do erro quadrado médio |
 |:----------------:|:------------------:|:------------------:|:------------------:|:------------------: |
-|**Correlação** | **3.173**| **2.558** | **10.071**|**0.025**|
-|*RFE* | 9.872| 8.558 | 97.447| 0.183 |
-|*Feature Importance* | 10.477| 8.99 | 109.766| 0.2 |
-|*PCA* | 11.747| 10.357 | 137.99| 0.253 | 
+|**Correlação** | **0.838**| **20588.527** | **1136124027.754**|**33706.439**|
+|*RFE* | 0.827| 21693.596 | 1212389885.253| 34819.39 |
+|*Feature Importance* | 0.716| 29641.191 | 1989657290.949| 44605.575 |
+|*PCA* | 0.211| 52247.883 |5526554661.733| 74340.801 | 
 
 **AutoML para classificação de preços de celulares (TPOT)**: Aplicação da biblioteca *TPOT*
 
