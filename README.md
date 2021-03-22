@@ -16,12 +16,23 @@ Os resultado podem ser vistos abaixo:
 
 |Método de seleção de *features* | *R-squared*     |  Erro absoluto médio  |  Erro quadrado médio|  Raiz do erro quadrado médio |
 |:----------------:|:------------------:|:------------------:|:------------------:|:------------------: |
-|**Correlação** | **0.838**| **20588.527** | **1136124027.754**|**33706.439**|
+|**Correlação** | **83.8%**| **20588.527** | **1136124027.754**|**33706.439**|
 |*RFE* | 0.827| 21693.596 | 1212389885.253| 34819.39 |
 |*Feature Importance* | 0.716| 29641.191 | 1989657290.949| 44605.575 |
 |*PCA* | 0.211| 52247.883 |5526554661.733| 74340.801 | 
 
 **AutoML para classificação de preços de celulares (TPOT)**: Aplicação da biblioteca de *AutoML TPOT* para classificação de preços de celulares. Com o uso dessa biblioteca foi gerado um modelo com uma acurácia de **97.4%**.
+
+**AutoML para previsão de resistência do concreto (Auto-Sklearn)**: Utilizando a biblioteca *Auto-Sklearn* para previsão de resistência de concreto; o modelo gerado pela biblioteca gerou previsões que resultaram nas seguintes métricas de avaliação abaixo:
+
+|Métrica | Resultado |
+|:----------:|:------------------:|:
+|*R-squared*| 89.803 %|
+|Erro médio absoluto | 3.907485038152961|
+|Erro médio percentual absoluto |0.13186784887581904|
+|Erro médio quadrado |27.62182916624647|
+|Erro médio logarítmico quadrado|0.026504404779111895|
+|Erro mediano absoluto|2.848742341995239|
 
 **Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
 
