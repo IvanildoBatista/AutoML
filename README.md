@@ -34,6 +34,8 @@ Os resultado podem ser vistos abaixo:
 |Erro médio logarítmico quadrado|0.026504404779111895|
 |Erro mediano absoluto|2.848742341995239|
 
+**AutoML para previsão Churn de clientes**;
+
 **Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
 
 1) a relação positiva entre a variável *engineSize* e o preço (*price*, variável alvo);
