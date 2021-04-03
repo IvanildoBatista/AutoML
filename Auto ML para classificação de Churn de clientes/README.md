@@ -11,6 +11,23 @@ rotatividade de funcionários de uma empresa em um determinado setor ou em toda 
 
 ## Etapas
 
+1- Instalação de bibliotecas;
+
+2- Importação das bibliotecas;
+
+3- Importação da base de dados;
+
+4- Análise Exploratória dos dados;
+
+5- Transformações dos dados;
+
+6- Modelagem dos dados (separação de dados de treino e teste, reamostragem dos dados, treinamento dos algoritmos e avaliação dos modelos)
+
+7- Conclusão
+
+## Resultados
+
+
 
 
 
