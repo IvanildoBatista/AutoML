@@ -21,13 +21,13 @@ rotatividade de funcionários de uma empresa em um determinado setor ou em toda 
 
 5- Transformações dos dados;
 
-6- Modelagem dos dados (separação de dados de treino e teste, reamostragem dos dados, treinamento dos algoritmos e avaliação dos modelos)
+6- Modelagem dos dados (separação de dados de treino e teste, reamostragem dos dados, treinamento dos algoritmos e avaliação dos modelos);
 
-7- Conclusão
+7- Conclusão.
 
 ## Resultados
 
-
+O melhor modelo foi o que utilizou a algoritmos de reamostragem *Instance Hardness Threshold* que obtive as melhores métricas de avaliação.
 
 
 
