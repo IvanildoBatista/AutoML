@@ -34,10 +34,19 @@ Os resultado podem ser vistos abaixo:
 |Erro médio logarítmico quadrado|0.026504404779111895|
 |Erro mediano absoluto|2.848742341995239|
 
-**AutoML para previsão Churn de clientes (Auto-Sklearn)**: O melhor modelo foi o que utilizou a algoritmos de reamostragem Instance Hardness Threshold que obtive as melhores métricas de avaliação;
+**AutoML para previsão Churn de clientes (Auto-Sklearn)**: O melhor modelo foi o que utilizou a algoritmos de reamostragem *Instance Hardness Threshold* que obtive as melhores métricas de avaliação;
 
 **Automatização de visualização de dados (AutoViz)**: Aplicação da biblioteca *AutoViz* para automatizar o processo de visualização de uma base de dados de carros usados. Foram gerados os gráficos *Scatterplot*, *Pairwise-plot*, Histograma, *Boxplots*, *QQplot*, *Violinplot*, *Heatmap*, *Pivot Table* e  *barplots* e, com esses gráficos, foi possíveis identificar:
 
 1) a relação positiva entre a variável *engineSize* e o preço (*price*, variável alvo);
 
 2) As variáveis contínuas não possuem uma distribuição normal, o que pode ser um problema na hora de passá-las para modelos de *machine learning* ou de *deep learning*, pois alguns desses modelos pressupõem normalidade nas variáveis e isso mostra que essas colunas precisam de algum tipo de tratamento (normalização ou padronização). Outra coisa que pode-se notar é a presença de muitos *outliers* na variável *price* que pode ser ruim para o treinamento de um modelo, então essa coluna pode requerer um tratamento.
+
+**Auto ML para previsão preço de veículos (MLBox)**: Utilizando a biblioteca *MLBox* obtive um modelo de regressão com um *R²* de 92.9%, conforme abaixo
+
+![image](https://user-images.githubusercontent.com/63425404/119176527-96c3ff80-ba41-11eb-883f-970445bdaec9.png)
+
+Em seguida podemos ver o gráfico de dispersão entre as previsões e os valores reais:
+
+![image](https://user-images.githubusercontent.com/63425404/119176628-b8bd8200-ba41-11eb-9b4e-d18a4dcdea31.png)
+
